@@ -3,7 +3,7 @@ MAINTAINER Guillaume Claret
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y python-pip
-RUN apt-get install -y fprobe
+RUN apt-get install -y libav-tools
 
 RUN pip install youtube_dl
 
