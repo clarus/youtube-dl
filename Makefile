@@ -1,2 +1,2 @@
 build:
-	docker build --tag=youtube-dl .
+	docker build --tag=youtube-dl docker
